@@ -1,0 +1,32 @@
+.filter-btns {
+    margin-top: 50px;
+    padding-left: 136px;
+}
+
+.filter-btns button {
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #5264C3;
+    margin: 0 10px;
+
+}
+
+
+/* Media Query for Tablet */
+@media screen and (max-width: 1024px) {
+    .filter-btns {
+        padding-left: 50px;
+    }
+}
+
+/* Media Query for Phone */
+@media screen and (max-width: 768px) {
+    .filter-btns {
+        padding: 0 72px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
