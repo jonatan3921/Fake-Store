@@ -28,7 +28,10 @@ function Homepage() {
         <div className='products-container'>
             {/* Products go here */}
             {
+                products ?
                 products.map((item) => <ProductCard key={item.id} product={item}/> )
+                :
+                null
             }
         </div>
     </div>
